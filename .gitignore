@@ -1,0 +1,63 @@
+# .gitignore for ASP.NET Core / Blazor / .NET projects
+# Generated for demo (net10.0) — ignores IDE, build outputs, packages, and common caches
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+*/bin/
+*/obj/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+.nuget/packages/
+
+# ASP.NET Core files that commonly contain secrets (optional - ignore development secrets)
+appsettings.Development.json
+appsettings.*.Local.json
+secrets.json
+
+# Publish output
+publish/
+*.Publish.xml
+
+# IIS Express
+/.vs/Config/applicationhost.config
+
+# Test results
+TestResults/
+coverage/
+
+# Logs
+*.log
+
+# Node
+node_modules/
+npm-debug.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Misc
+*.db
+*.db-journal
+
+# If you accidentally committed files that should be ignored, run:
+#   git rm -r --cached .
+#   git add .
+#   git commit -m "Apply .gitignore"
